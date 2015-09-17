@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/menutop.css')
+		link(rel='stylesheet', href='/stylesheets/index.css')
+		link(rel='stylesheet', href='/stylesheets/map.css')
+		link(rel='stylesheet', href='/stylesheets/footer.css')
+		link(rel='stylesheet', href='/stylesheets/account.css')
+		link(rel='stylesheet', href='/stylesheets/tweet.css')
+
+		meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+		meta(charset='utf-8')
+
+		script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+		script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
+	body
+		#wraper
+			include menutop
+
+			block content
+
+			include footer

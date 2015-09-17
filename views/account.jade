@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	script
+		include ../public/javascript/loadprofile.js
+
+	p#userdata(style='display:none;') #{userdata}
+
+	#cuerpo
+		#profilebox
+			#profileimage
+				img(src="/images/cthulhu-punisher.jpg")
+			#profileinfo
+				#githubname
+					p#profilename Username
+				p#profilegithuburl
+					span GitHub url:
+					|  
+					a#githuburl(href='https://github.com/')
+				form(action='/users/account/saveemail', method='post')
+					p#profileemail
+						span Email:
+						|  	
+						input#email(type='text', name='email', title='Email for subscribe to new events')
+						|  
+						input(type='submit', value='Save')

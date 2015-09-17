@@ -1,0 +1,32 @@
+/* line 1, tweet.sass */
+#tweetbox {
+  display: block;
+  background-color: rgba(181, 188, 183, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* line 10, tweet.sass */
+#tweetbox textarea {
+  height: 100px;
+  width: 100%;
+  max-height: 100px;
+  max-width: 450px;
+  border-radius: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* line 19, tweet.sass */
+#cuadro {
+  display: block;
+  background-color: rgba(181, 188, 183, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  padding: 25px;
+  border-radius: 20px;
+}

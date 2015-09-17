@@ -1,0 +1,49 @@
+/* line 1, footer.sass */
+#footer {
+  padding: 30px;
+  background-color: #36bc67;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 10, footer.sass */
+#footer a {
+  color: #4c00ca;
+}
+
+/* line 13, footer.sass */
+#footer p span {
+  font-style: italic;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+/* line 17, footer.sass */
+#footer #social {
+  margin-left: auto;
+  margin-right: 0px;
+  width: 192px;
+}
+
+/* line 23, footer.sass */
+#footer #social-icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+}
+
+/* line 28, footer.sass */
+#footer #reficons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 0px;
+  width: 13em;
+}
+
+/* line 35, footer.sass */
+#footer #social-icons img {
+  max-width: 64px;
+  max-height: 64px;
+}

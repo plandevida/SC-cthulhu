@@ -1,0 +1,44 @@
+{
+	"name": "SC-cthulhu",
+	"description":"A Web for AW developed with NodeJs, Express, Compass, Js/CoffeeScript",
+	"version": "0.0.0",
+	"contributors": [{
+		"name":"Daniel Serrano Torres",
+		"email":"daniserr@ucm.es"
+	},
+	{
+		"name":"Emilio Álvarez Piñeiro",
+		"email":"emilalva@ucm.es"
+	}],
+	"private": true,
+	"scripts": {
+		"start":"node ./bin/www",
+		"start-compass":"npm run watch ; npm start",
+		"watch":"killall compass ; compass watch . &"
+		},
+		"repository":{
+			"type":"git",
+			"url":"https://github.com/plandevida/SC-cthulhu.git"
+		},
+		"dependencies":{
+			"body-parser": "~1.10.2",
+			"cookie-parser": "~1.3.3",
+			"debug": "~2.1.1",
+			"express": "~4.11.1",
+			"jade": "1.9.*",
+			"morgan": "~1.5.1",
+			"node-compass": "*",
+			"serve-favicon": "~2.2.0",
+			"beeline":"*",
+			"passport":"*",
+			"passport-github":"*",
+			"passport-twitter":"*",
+			"express-session":"*",
+			"unirest":"*",
+			"mongoose" : "*",
+			"nodemailer": "*",
+			"request": "*",
+			"oauth": "*",
+			"node-twitter": "*"
+		}
+}

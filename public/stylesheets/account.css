@@ -1,0 +1,34 @@
+#profilebox {
+  display: inline-block;
+  background-color: rgba(181, 188, 183, 0.6);
+  width: 60%;
+}
+
+#profilebox #profileimage, #profileinfo {
+  float: left;
+}
+
+#profilebox #profileimage img {
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 180px;
+  max-height: 180px;
+  margin: 25px 35px 40px 25px;
+  -webkit-box-shadow: 10px 10px 57px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 10px 10px 57px 0px rgba(0, 0, 0, 0.58);
+  box-shadow: 10px 10px 57px 0px rgba(0, 0, 0, 0.58);
+}
+
+#profilebox #profileinfo {
+  width: 50%;
+}
+
+#profilebox #profileinfo p > span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#profilebox #profileinfo #githubname {
+  text-align: center;
+  font-size: 30px;
+}

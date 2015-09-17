@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	#cuerpo
+		#tweetbox
+			p#tweetas Twetting as: #{twittername}
+			form(action='/users/sendtweet', method='get')
+				textarea(rows='4', cols='3', name='tweet') Mira este evento que he encontrado en @SCcthulhu #{evento.title}
+				input(type='submit', name='Enviar', value='Tweet')
